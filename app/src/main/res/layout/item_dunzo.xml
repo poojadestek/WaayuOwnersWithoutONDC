@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app1="http://schemas.android.com/apk/res-auto"
+
+    app1:cardCornerRadius="12dp"
+    android:layout_margin="12dp"
+    android:layout_height="wrap_content">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_oderid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gilroybold"
+                    android:padding="0dp"
+                    android:text="asasas"
+                    android:textColor="@color/colorBalck"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/txt_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/gilroybold"
+                    android:gravity="center"
+                    android:text="asasasas"
+                    android:textColor="@color/colorGreen"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:id="@+id/txt_taskid"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorBalck"/>
+
+            <TextView
+                android:id="@+id/txt_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/gilroybold"
+                android:padding="0dp"
+
+
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorBalck"/>
+        </LinearLayout>
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

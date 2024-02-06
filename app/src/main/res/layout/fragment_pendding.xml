@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#F0F2FD"
+    tools:context="com.waayu.owner.fregment.ProductFragment">
+
+    <TextView
+        android:id="@+id/txt_titel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_13sdp"
+        android:fontFamily="@font/poppins_bold"
+        android:visibility="gone"
+        android:gravity="center|left"
+        android:text="Pending Order"
+        android:textColor="@color/colorBalck"
+        android:textSize="@dimen/_14sdp"
+      />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_14sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+       >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/_15sdp"
+                >
+
+            <TextView
+                android:id="@+id/txt_neworder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="true"
+                android:fontFamily="@font/poppins_bold"
+                android:background="@drawable/border_t1"
+                android:padding="@dimen/_6sdp"
+                android:textSize="@dimen/_12sdp"
+                android:text=" New Order "
+                android:textColor="@color/colorWhite" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/_15sdp"
+                >
+
+                <TextView
+                    android:id="@+id/txt_ongoing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_6sdp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textSize="@dimen/_12sdp"
+                    android:text=" Cancel "
+                    android:textColor="@color/colorBalck" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/_15sdp"
+                >
+
+                <TextView
+                    android:id="@+id/txt_complet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_6sdp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textSize="@dimen/_12sdp"
+                    android:text=" Completed "
+                    android:textColor="@color/colorBalck" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycle_pending"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_weight="1"
+            tools:listitem="@layout/pending_item1" />
+
+        <TextView
+            android:id="@+id/txtNodata"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="No pending orders found at the moment."
+            android:textSize="18dp"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

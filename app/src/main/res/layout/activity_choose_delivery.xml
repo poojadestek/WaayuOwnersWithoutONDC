@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ChooseDeliveryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_backs" />
+
+        <TextView
+            android:id="@+id/txt_orderid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="ORDER ID#"
+            android:textColor="@color/colorBalck"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/ic_launcher"/>
+
+
+    <TextView
+        android:id="@+id/wait_ord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textSize="20dp"
+        android:textColor="#D32F2F"
+        android:layout_gravity="center_horizontal"
+        android:text="Waiting for order:   mins"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/waitingtxt"
+            android:textSize="14dp"
+            android:textColor="#000000"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center_vertical"
+
+            android:text="Std. Waiting:  Mins"/>
+
+        <ImageView
+            android:id="@+id/minus"
+            android:layout_width="30dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/minus"
+            android:layout_height="30dp"/>
+
+        <TextView
+            android:id="@+id/times"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:textSize="14dp"
+            android:textColor="#000000"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center_vertical"
+            android:text=""/>
+
+        <ImageView
+            android:id="@+id/plus"
+            android:layout_width="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_gravity="center_vertical"
+            android:tint="#D32F2F"
+
+            android:src="@drawable/ic_baseline_add_circle_24"
+            android:layout_height="30dp"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txt_dmode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="center_vertical"
+        android:text="Delivery Option: "/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linDelivery"
+        android:layout_marginTop="25dp"
+        >
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="center_vertical"
+
+        android:text="Select Delivery Option"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:padding="5dp"
+        android:layout_margin="10dp">
+
+        <RadioGroup
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:text="Self"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:text="Partner 1 Rs 20"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Partner 2 Rs 30"/>
+
+
+
+
+        </RadioGroup>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:id="@+id/recycler"/>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:background="@drawable/border"
+        android:backgroundTint="#FFA000"
+        android:textColor="@color/colorWhite"
+        android:text="Update Time and Accept"
+        />
+
+</LinearLayout>

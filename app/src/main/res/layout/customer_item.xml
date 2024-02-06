@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/_4sdp"
+        app:cardCornerRadius="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_10sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/_10sdp"
+            >
+
+            <RelativeLayout
+                android:id="@+id/rel_view1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_3sdp"
+
+                >
+
+                <TextView
+                    android:id="@+id/txt_cust_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/txt_order"
+                    android:text="Customer Name"
+                    android:textColor="@color/colorBalck"
+                    android:textSize="@dimen/_13sdp" />
+
+                <TextView
+                    android:id="@+id/txt_order"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text="Order Placed - 0"
+                    android:textColor="@color/colorRed"
+                    android:textSize="@dimen/_10sdp"
+
+
+                    />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txt_mob_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rel_view1"
+                android:layout_centerVertical="true"
+                android:text="Mobile No - "
+                android:textColor="@color/colorBalck"
+                android:textSize="@dimen/_12sdp"
+
+
+                />
+
+
+            <TextView
+                android:id="@+id/txt_email_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email Id - "
+                android:textColor="@color/colorBalck"
+                android:textSize="@dimen/_12sdp"
+
+
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

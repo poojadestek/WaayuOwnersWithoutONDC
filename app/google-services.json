@@ -1,0 +1,225 @@
+{
+  "project_info": {
+    "project_number": "387981343026",
+    "project_id": "waayu-6c43e",
+    "storage_bucket": "waayu-6c43e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387981343026:android:8e093f2962e47f35e6bf2b",
+        "android_client_info": {
+          "package_name": "com.waayu.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387981343026-56p6ctqmsm8iameagtolkudf15lrqbdd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.waayu.customer",
+            "certificate_hash": "38dc07dd84ba23605d491bcf60b03b4fc29317bc"
+          }
+        },
+        {
+          "client_id": "387981343026-fco84r4slv5bsfsp94i7qva9qnjj09tf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.waayu.customer",
+            "certificate_hash": "c138e3f8d110effb7b15190a7ec46d8d79bcc655"
+          }
+        },
+        {
+          "client_id": "387981343026-j6iv212bns84aul8jh0rnu52ii82hv80.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.waayu.customer",
+            "certificate_hash": "a7775aebcd87ba6b77e4a3242590baf0dbd0fb42"
+          }
+        },
+        {
+          "client_id": "387981343026-lvvbips0tirpnlcj4t3oig61m1le6qii.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.waayu.customer",
+            "certificate_hash": "a1aa3cbcd6b28e198618e0975fa267cf31634ef4"
+          }
+        },
+        {
+          "client_id": "387981343026-pnr2uvdatqb9r9k7q1q4n2vbaqt9g4on.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.waayu.customer",
+            "certificate_hash": "c585515ad7f4ea3db5d15863177c0b28f6c22b69"
+          }
+        },
+        {
+          "client_id": "387981343026-futjnm5ijedcih01vg8srd4s7esk4jo5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDreN04L0HerrzODltEdjhK0boIV01gdS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387981343026-futjnm5ijedcih01vg8srd4s7esk4jo5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "387981343026-6lvjl372kpk9eq2n2aru62ch0ahm0248.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.destek.waayucustomer",
+                "app_store_id": "1663850899"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387981343026:android:d863406f5597e4ffe6bf2b",
+        "android_client_info": {
+          "package_name": "com.waayu.delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387981343026-cnd03qfd5m73v6jnvb3b257mp2trbdo2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.waayu.delivery",
+            "certificate_hash": "a1aa3cbcd6b28e198618e0975fa267cf31634ef4"
+          }
+        },
+        {
+          "client_id": "387981343026-drcfag2o3m8gprgvbccq1asguoir5hd7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.waayu.delivery",
+            "certificate_hash": "a7775aebcd87ba6b77e4a3242590baf0dbd0fb42"
+          }
+        },
+        {
+          "client_id": "387981343026-rh91dprh7l4groiufkq7fgik8n7iq32h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.waayu.delivery",
+            "certificate_hash": "38dc07dd84ba23605d491bcf60b03b4fc29317bc"
+          }
+        },
+        {
+          "client_id": "387981343026-futjnm5ijedcih01vg8srd4s7esk4jo5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDreN04L0HerrzODltEdjhK0boIV01gdS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387981343026-futjnm5ijedcih01vg8srd4s7esk4jo5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "387981343026-6lvjl372kpk9eq2n2aru62ch0ahm0248.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.destek.waayucustomer",
+                "app_store_id": "1663850899"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387981343026:android:4285321ac7918c85e6bf2b",
+        "android_client_info": {
+          "package_name": "com.waayu.owner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387981343026-5h9hk6m43bshqkpvb72b3df45a3r6dca.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.waayu.owner",
+            "certificate_hash": "a7775aebcd87ba6b77e4a3242590baf0dbd0fb42"
+          }
+        },
+        {
+          "client_id": "387981343026-7a72jmu716l8bc293s709vlaq6lbhmo4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.waayu.owner",
+            "certificate_hash": "a1aa3cbcd6b28e198618e0975fa267cf31634ef4"
+          }
+        },
+        {
+          "client_id": "387981343026-7avo7enq0nbsboa5bpotcaq3l0b5q83d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.waayu.owner",
+            "certificate_hash": "38dc07dd84ba23605d491bcf60b03b4fc29317bc"
+          }
+        },
+        {
+          "client_id": "387981343026-8cdnelnugcidp9elgdrh59hmq3f2inko.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.waayu.owner",
+            "certificate_hash": "12793c12f77ba43d336535357b65028691952c5c"
+          }
+        },
+        {
+          "client_id": "387981343026-defg9v6qfap0ai2tiohalohi4li9v9nc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.waayu.owner",
+            "certificate_hash": "c585515ad7f4ea3db5d15863177c0b28f6c22b69"
+          }
+        },
+        {
+          "client_id": "387981343026-futjnm5ijedcih01vg8srd4s7esk4jo5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDreN04L0HerrzODltEdjhK0boIV01gdS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387981343026-futjnm5ijedcih01vg8srd4s7esk4jo5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "387981343026-6lvjl372kpk9eq2n2aru62ch0ahm0248.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.destek.waayucustomer",
+                "app_store_id": "1663850899"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

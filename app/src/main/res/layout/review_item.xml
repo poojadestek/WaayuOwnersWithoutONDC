@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:animationCache="true"
+    android:gravity="center|left"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/colorWhite"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/text_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Snehal"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="@color/colorBalck"
+                />
+
+            <LinearLayout
+                android:id="@+id/lin_review"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Review : "
+                    android:fontFamily="@font/poppins_regular"
+                    android:textColor="@color/colorGrey2"
+                    android:textSize="@dimen/_12sdp" />
+
+                <TextView
+                    android:id="@+id/txt_review"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="0dp"
+                    android:text="asasas"
+                    android:textColor="@color/colorBalck"
+                    android:textSize="@dimen/_12sdp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_layout_RatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_below="@+id/lblRate"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/image_view_star_1"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/_2sdp"
+                    android:src="@drawable/ic_round_star" />
+
+                <ImageView
+                    android:id="@+id/image_view_star_2"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/_2sdp"
+                    android:src="@drawable/ic_round_star" />
+
+                <ImageView
+                    android:id="@+id/image_view_star_3"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/_2sdp"
+                    android:src="@drawable/ic_round_star" />
+
+                <ImageView
+                    android:id="@+id/image_view_star_4"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/_2sdp"
+                    android:src="@drawable/ic_round_star" />
+
+                <ImageView
+                    android:id="@+id/image_view_star_5"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/_2sdp"
+                    android:src="@drawable/ic_round_star" />
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/lin_delivery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Delivery boy : "
+                    android:textColor="@color/colorGrey2"
+                    android:textSize="@dimen/_12sdp" />
+
+                <TextView
+                    android:id="@+id/txt_delivery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_bold"
+                    android:padding="0dp"
+                    android:text="asasas"
+                    android:textColor="@color/colorBalck"
+                    android:textSize="@dimen/_12sdp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/lin_del_review_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Review : "
+                    android:textColor="@color/colorGrey2"
+                    android:textSize="@dimen/_12sdp" />
+
+                <TextView
+                    android:id="@+id/txt_review_ride_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:padding="0dp"
+                    android:text="asasas"
+                    android:textColor="@color/colorBalck"
+                    android:textSize="@dimen/_12sdp" />
+
+
+                <LinearLayout
+                    android:id="@+id/linear_layout_RatingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_15sdp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/image_view_star_review_1"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="match_parent"
+                        android:padding="@dimen/_1sdp"
+                        android:src="@drawable/ic_round_star_green" />
+
+                    <ImageView
+                        android:id="@+id/image_view_star_review_2"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="match_parent"
+                        android:padding="@dimen/_1sdp"
+                        android:src="@drawable/ic_round_star_green" />
+
+                    <ImageView
+                        android:id="@+id/image_view_star_review_3"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="match_parent"
+                        android:padding="@dimen/_1sdp"
+                        android:src="@drawable/ic_round_star_green" />
+
+                    <ImageView
+                        android:id="@+id/image_view_star_review_4"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="match_parent"
+                        android:padding="@dimen/_1sdp"
+                        android:src="@drawable/ic_round_star_green" />
+
+                    <ImageView
+                        android:id="@+id/image_view_star_review_5"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="match_parent"
+                        android:padding="@dimen/_1sdp"
+                        android:src="@drawable/ic_round_star_green" />
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
